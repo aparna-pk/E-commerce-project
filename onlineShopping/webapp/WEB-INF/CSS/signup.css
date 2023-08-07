@@ -1,0 +1,89 @@
+@charset "ISO-8859-1";
+
+body
+{
+	background-color: #04908f;
+	font-family: monospace;
+	position: absolute;
+}
+
+.main
+{
+	margin-top: 50px;
+	margin-left: 250px;
+	width: 100%;
+	height :100%;
+	display: flex;
+	position: relative;
+}
+
+.left
+{
+	background:white;
+	padding: 30px;
+	width: 300px;
+	height:450px;
+	text-align:center;
+	
+}
+
+.left div
+{
+	border-bottom:2px solid #FFBF00;
+	padding: 5px;
+}
+.left div input
+{
+	border:0;
+	width: 100%;
+	height: 30px;
+}
+.left div input:focus
+{
+	outline: none;;
+}
+.left div select
+{
+	border:0;
+	width: 100%;
+	height: 30px;
+}
+.left button
+{
+	width: 100%;
+	height:30px;
+	border: 0;
+	background:#04908f;
+	color: white; 
+	margin-top:50px;
+	margin-bottom:30px;
+	border-radius:5px;
+	padding: 5px;
+}
+
+.left a
+{
+	margin-top: 10px;
+	font-size:20px;
+	color:#04908f;
+	font-family: serif;
+	
+}
+.right
+{
+	background-image: url("you-cart.jpg");
+	width: 450px;
+	height: 510px;
+}
+.right p
+{
+	color: white;
+	font-size: 15px;
+	padding:5px;
+	font-family: monospace;
+}
+.right h2
+{
+	color: #04908f;
+	padding: 10px;
+}

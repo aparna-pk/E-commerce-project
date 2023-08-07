@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+
+table
+{
+	margin-top: 20px;
+	width: 100%;
+	border: none;
+
+}
+ 
+table thead
+{
+	background-color:  #008080;
+	color: #FFBF00;
+	height: 50px;
+} 
+
+table td
+{
+	background-color:  #408080;
+	color: white;
+	height: 30px;
+}

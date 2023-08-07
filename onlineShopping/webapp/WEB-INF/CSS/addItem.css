@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+
+	.form
+	{
+		align-content:space-between;
+		margin-top:200px;
+		margin-left:200px;
+		width: 800px;;
+		height: 100%;
+		background-color:  #04908f;
+		opacity: 0.8;
+		color: #FFBF00;
+	}
+	
+	.form div
+	{
+		text-align: center;
+	}
+	 
+	.form input
+	{
+		height: 30px;
+	}
+	 
+	.form div button
+	{
+		width: 500px;
+		border-radius: 5px;
+		height: 30px;
+		border: none;
+		margin: 20px;
+		background-color:#FFBF00;
+		font-size:18 px;
+		color:#04908f;
+	} 
+	 
+	.item
+	{
+		display: inline-flex;
+	}
+	.item h3
+	{
+		margin: 20px;
+	}
+	
+	.item select
+	{
+		width: 200px;
+		height: 30px;
+	}
